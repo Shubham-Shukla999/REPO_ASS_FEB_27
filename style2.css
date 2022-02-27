@@ -1,0 +1,21 @@
+/* Descendent Selector (space) */
+header div {
+  border: 2px solid red;
+}
+
+/* Child selector (>) */
+nav > span,
+a {
+  background-color: yellowgreen;
+}
+
+/* Adjacent Sibling Selector (+) */
+.fb + span {
+  background-color: aquamarine;
+}
+
+/* General Sibling Selector */
+#L ~ a {
+  background-color: blue;
+}
+
